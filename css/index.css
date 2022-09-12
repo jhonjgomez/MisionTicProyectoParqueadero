@@ -1,0 +1,61 @@
+.container {
+    background-color: #96c599;
+    height: 100vh;
+}
+
+.container__background {
+    background: url("../img/parking-spot-gf3a37b3c6_1280.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    margin: auto;
+    position: relative;
+    top: 8%;
+    width: 90%;
+}
+
+.container__background__login {
+    background: #96c599;
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+    width: 60%;
+}
+
+.container__background__login-logo {
+    background: url("../img/l.jpg") center;
+    margin-top: 5%;
+    height: 90px;
+    width: 90px;
+}
+
+.container__background__login__bienvenida {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 5%;
+    height: 60%;
+}
+
+.container__background__login__bienvenida-titulo {
+    font-weight: 600;
+}
+
+.container__background__login__bienvenida-botones {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.boton {
+    background: #37a03b;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    color: #010101;
+    font-weight: 600;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+}
