@@ -3,12 +3,11 @@ body {
 }
 
 .container {
-    background-color: #010101;
     height: 100vh;
 }
 
 .container__background {
-    background: url("../img/parking-spot-gf3a37b3c6_1280.jpg");
+    background: url("../ParkingReservation/src/main/webapp/img/parking-spot-gf3a37b3c6_1280.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +27,8 @@ body {
 }
 
 .container__background__login-logo {
-    background: url("../img/l.jpg") center;
+    background: url("../ParkingReservation/src/main/webapp/img/l.jpg") center;
+    background-size: contain;
     margin-top: 5%;
     height: 90px;
     width: 90px;
