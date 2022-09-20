@@ -33,9 +33,9 @@ CREATE TABLE IF NOT EXISTS `puestos` (
 CREATE TABLE IF NOT EXISTS `reserva` (
   `id` int(11) NOT NULL,
   `username` varchar(100) NOT NULL,
-  `hora_entrada` datetime NOT NULL,
+  `hora_reserva` datetime NOT NULL,
   `hora_salida` datetime NOT NULL,
-  PRIMARY KEY (`id`,`username`,`hora_entrada`) USING BTREE,
+  PRIMARY KEY (`id`,`username`,`hora_reserva`) USING BTREE,
   KEY `FK__usuarios` (`username`),
   CONSTRAINT `FK__puestos` FOREIGN KEY (`id`) REFERENCES `puestos` (`id`),
   CONSTRAINT `FK__usuarios` FOREIGN KEY (`username`) REFERENCES `usuarios` (`username`)
