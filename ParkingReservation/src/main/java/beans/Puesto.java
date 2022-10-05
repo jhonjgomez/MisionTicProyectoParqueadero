@@ -4,10 +4,10 @@ public class Puesto {
     private int  id;
     private String tipo;
     private String zona;
-    private String costo;
+    private double costo;
     private boolean disponible;
 
-    public Puesto(int id, String tipo, String zona, String costo, boolean disponible) {
+    public Puesto(int id, String tipo, String zona, double costo, boolean disponible) {
         this.id = id;
         this.tipo = tipo;
         this.zona = zona;
@@ -40,11 +40,11 @@ public class Puesto {
         this.zona = zona;
     }
 
-    public String getCosto() {
+    public double getCosto() {
         return costo;
     }
 
-    public void setCosto(String costo) {
+    public void setCosto(double costo) {
         this.costo = costo;
     }
 

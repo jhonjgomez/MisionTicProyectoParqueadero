@@ -38,7 +38,7 @@ public class OperacionesDB {
                 int id = rs.getInt("id");
                 String tipo = rs.getString("tipo");
                 String zona = rs.getString("zona");
-                String costo = rs.getString("costo");
+                double costo = rs.getDouble("costo");
                 boolean disponible = rs.getBoolean("disponible");
                 
                 Puesto puesto = new Puesto(id, tipo, zona, costo, disponible);
